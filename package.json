@@ -1,0 +1,14 @@
+{
+  "name": "youtube-live-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that streams YouTube Live audio into a voice channel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.27.0"
+  }
+}
